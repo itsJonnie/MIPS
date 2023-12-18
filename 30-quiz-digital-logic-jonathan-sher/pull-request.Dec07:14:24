@@ -1,0 +1,29 @@
+The following changes since commit eb6bbd2067f161d17b80c15c57641b189c1c52f7:
+
+  Initial commit (2023-12-07 21:16:04 +0000)
+
+are available in the Git repository at:
+
+  git@github.com:COMP122/30-quiz-digital-logic-jonathan-sher.git main
+
+for you to fetch changes up to 16dc75aa8cfe06d0a99f3366a6286d16ba4dd1fc:
+
+  updated submission (2023-12-07 14:20:51 -0800)
+
+----------------------------------------------------------------
+jonathan-sher (11):
+      creating file
+      update q1
+      update q2
+      update q2
+      updated q3
+      update q4
+      update q5
+      update q6 (karnaugh map)
+      update
+      update formatting
+      updated submission
+
+ submission.md | 118 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 118 insertions(+)
+ create mode 100644 submission.md
