@@ -1,0 +1,46 @@
+java_subroutine checksum < 156.txt
+#########################################
+# Above is the output from your program
+#########################################
+
+v0:          0; 0x00 00 00 00; 0b0000 0000 0000 0000 0000 0000 0000 0000;
+
+java_subroutine checksum < 229_error.txt
+#########################################
+# Above is the output from your program
+#########################################
+
+v0:        132; 0x00 00 00 84; 0b0000 0000 0000 0000 0000 0000 1000 0100;
+
+java_subroutine checksum < 81.txt
+#########################################
+# Above is the output from your program
+#########################################
+
+v0:          0; 0x00 00 00 00; 0b0000 0000 0000 0000 0000 0000 0000 0000;
+
+touch java_code
+mips_subroutine checksum < 156.txt
+#########################################
+# Above is the output from your program
+#########################################
+
+v0:          0; 0x00 00 00 00; 0b0000 0000 0000 0000 0000 0000 0000 0000;
+
+mips_subroutine checksum < 229_error.txt
+#########################################
+# Above is the output from your program
+#########################################
+
+v0:        132; 0x00 00 00 84; 0b0000 0000 0000 0000 0000 0000 1000 0100;
+
+mips_subroutine checksum < 81.txt
+#########################################
+# Above is the output from your program
+#########################################
+
+v0:          0; 0x00 00 00 00; 0b0000 0000 0000 0000 0000 0000 0000 0000;
+
+touch mips_code
+
+# Task 4 complete: Thu Oct 12 22:33:43 PDT 2023
